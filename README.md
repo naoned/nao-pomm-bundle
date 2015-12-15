@@ -156,6 +156,19 @@ LoadCustomerData class :
         }
     ...
 
+## Schema generation in a sql file
+
+    > php app/console naopomm:schema:generate
+
+This command generates a backup file of your skeleton database. File is located in app/schema/schema.sql
+
+
+## Creation schemas form schema.sql
+
+    > php app/console naopomm:schema:create
+
+This command create thschema in our DB using the backup schema file.
+
 
 ## PommManager
 
