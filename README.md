@@ -167,7 +167,7 @@ This command generates a backup file of your skeleton database. File is located 
 
     > php app/console naopomm:schema:create
 
-This command create thschema in our DB using the backup schema file.
+This command create the schema in our DB using the backup schema file.
 
 
 ## PommManager
