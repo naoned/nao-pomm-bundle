@@ -1,0 +1,6 @@
+services:
+
+    naoned.pomm.pomm_manager:
+        class:  Naoned\PommBundle\Manager\PommManager
+        calls:
+            - [ setPomm, [@pomm] ]

@@ -2,6 +2,7 @@
     "name": "naoned/nao-pomm-bundle",
     "type": "Library",
     "description": "Symfony pomm bundle powered by Naoned and based on awesome Pomm Project",
+    "keywords": ["orm", "postgresql", "symfony", "pomm", "naoned"],
     "homepage": "http://www.naoned.fr",
     "license": "©copyright 2015",
     "authors": [
@@ -16,6 +17,7 @@
     ],
     "require": {
         "php": ">=5.3",
+        "symfony/framework-bundle": "~2.3",
         "pomm-project/pomm-bundle": "^2.0"
     },
     "autoload": {
